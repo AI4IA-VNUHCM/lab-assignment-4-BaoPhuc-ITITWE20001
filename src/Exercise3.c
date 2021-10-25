@@ -51,6 +51,8 @@ void Ex3(int in_arr[], int n){
 	int a[SIZE][SIZE];
 	Array2Dconverter(in_arr,a,n,n);
 	//Your codes here
+	sortInc(a, n);
+	sortDec(a, n);
 	
 	printArray(a,n,n);
 }
